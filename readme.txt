@@ -6,13 +6,18 @@ Instructions
 Note: 1.Please run followed executable programs as root privilege
       2.Current Driver support versions of linux kernel range from 2.6.25 to 3.13.x
       3.Current Driver support 32bits and 64bits linux systems
-
+      
+Arduino download page:
+	https://www.arduino.cc/en/Main/Software
+	
 Usage:
 	(load or unload linux driver of CH34x)
-	//compile 
-	#make
+	//compile - setup driver
+	make
+	
 	//load ch34x chips driver
-	#make load
+	make load
+	
 	//unload ch34x chips driver
-	#make unload
+	make unload
 			
